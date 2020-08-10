@@ -1,0 +1,241 @@
+@CHARSET "UTF-8";
+
+ul {
+	border: 0;
+	outline: none;
+}
+
+.up_portrait {
+	width: 180px;
+	border: 0px solid #ddd;
+	display: inline-block;
+	float: left;
+	margin: 30px;
+	border-radius: 5px;
+}
+
+.nav-tabs>li>a {
+	cursor: pointer;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.form_table {
+	loat: left;
+	width: 100%;
+	padding-top: 10px;
+	table-layout: fixed;
+	font: 12px/1.5 arial, verdana;
+	font-weight: 500;
+	table-layout: fixed
+}
+
+.form_table th {
+	padding: 5px 8px 5px 0;
+	border-bottom: 1px solid #fff;
+	color: #333333;
+	font-weight: bold;
+	text-align: right;
+	white-space: nowrap;
+	background-color: #f9f9f9;
+}
+
+.form_table td {
+	text-align: left;
+	color: #717171;
+	line-height: 200%;
+	position: relative;
+}
+
+.normal {
+	height: 22px;
+	line-height: 22px;
+	padding-left: 5px;
+	width: 255px;
+	border: 1px #d7d7d7 solid;
+	margin-right: 5px;
+}
+
+select.auto {
+	height: 24px;
+	padding: 3px 10px 2px 5px;
+	margin-right: 5px;
+	border: 1px solid #e1e1e1;
+	color: #333;
+}
+
+.form_table label {
+	margin-bottom: 0;
+}
+
+.form_table label.attr {
+	color: #1d1d1d;
+	margin-right: 10px;
+}
+
+.form_table label input {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.border_table {
+	border-width: 1px;
+	margin-top: 10px;
+	background: #fff;
+}
+
+.border_table thead th {
+	color: #333;
+	white-space: nowrap;
+	text-align: center;
+	background: url(admin_bg.gif) repeat-x 0 -191px;
+}
+
+.td_c td {
+	text-align: center;
+}
+
+.border_table th, .border_table td {
+	border: 1px solid #e1e1e1;
+	vertical-align: middle;
+	padding: 5px 10px 5px;
+	white-space: nowrap;
+	word-break: keep-all;
+}
+
+input.small {
+	height: 22px;
+	line-height: 22px;
+	padding-left: 5px;
+	width: 120px;
+	border: 1px #d7d7d7 solid;
+	margin-right: 5px;
+	_margin-bottom: -1px;
+}
+
+input.tiny {
+	height: 18px;
+	line-height: 18px;
+	padding-left: 5px;
+	width: 70px;
+	border: 1px #d7d7d7 solid;
+	margin: 2px 5px 2px 0;
+}
+
+.form_table input {
+	color: #333;
+}
+
+.tools a {
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.form_table textarea {
+	width: 465px;
+	height: 65px;
+	padding: 0 0 0 5px;
+	font-size: 12px;
+	color: #333;
+	border: 1px #d2d2d2 solid;
+	line-height: 24px;
+}
+
+.form_table td.td_ueditor {
+	line-height: 100%;
+	padding-right: 40px;
+}
+
+.fh_demo {
+	width: 280px;
+	float: left;
+	margin: 10px 10px 10px 0;
+}
+
+.tips {
+	width: 330px;
+	float: left;
+	margin-top: 170px;
+}
+
+.dt_demo, .sc_demo {
+	margin: 10px 10px 10px 0;
+}
+
+.uploadImageLook {
+	cursor: pointer;
+}
+
+input.fileimg {
+	display: none;
+}
+
+.form-control {
+	display: inline-block;
+	padding: 0 0 0 5px;
+	font-size: 12px;
+	border-radius: 0;
+	box-shadow: 0 0 0 #fff;
+}
+
+.form_table  label.error {
+	color: rgb(221, 0, 0);
+	margin-left: 5px;
+	padding-left: 18px;
+	background: url(/static/img/back/error_msg_icon.gif) center left
+		no-repeat;
+}
+
+.form_table label.valid {
+	color: #06AC87;
+	background: url(/static/img/back/success_msg_icon.gif) center left
+		no-repeat;
+}
+
+textarea.valid-text, input.valid-text {
+	border: 1px #06AC87 solid;
+}
+
+textarea.invalid-text, input[type="text"].invalid-text, input[type="password"].invalid-text
+	{
+	border: 1px #DD0000 solid;
+}
+
+textarea.error, input[type="text"].error, input[type="password"].error {
+	border: 1px #DD0000 solid;
+}
+
+.autocp {
+	border: 1px solid #ddd;
+}
+
+.divoption {
+	width: 100%;
+	height: 22px;
+	line-height: 22px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.divoption:hover {
+	background: #f9f9f9;
+	font-weight: 700;
+}
+
+.sumbitadd {
+	margin: 10px auto;
+}
+
+.btn_center {
+	text-align: center;
+}
+
+.deleteimg {
+	margin: auto;
+}
+.item_class{
+	
+}

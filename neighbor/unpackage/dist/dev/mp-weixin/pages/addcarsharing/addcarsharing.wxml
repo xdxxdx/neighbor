@@ -1,0 +1,2 @@
+<import src="./addcarsharing.vue.wxml" />
+    <template is="c1d0a26e" data="{{ ...$root['0'], $root }}"/>

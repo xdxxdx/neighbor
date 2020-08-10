@@ -1,0 +1,2 @@
+<import src="./lifemall.vue.wxml" />
+    <template is="5fe5c596" data="{{ ...$root['0'], $root }}"/>

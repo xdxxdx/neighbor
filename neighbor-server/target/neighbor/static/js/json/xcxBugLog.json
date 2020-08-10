@@ -1,0 +1,18 @@
+{
+  "bugList": [
+    {
+      "describe": "账户充值功能显示的充值用户名和账户余额不正确",
+      "environment": "IOS和Android",
+      "version": "版本3.33.25",
+      "note": "显示的账户名和余额不影响充值结果，请放心充值！",
+      "isRepair": false
+    },
+	{
+      "describe": "账户设置页面在屏幕较小的情况下无法滚动",
+      "environment": "IOS和Android",
+      "version": "版本3.33.28",
+      "note": "等待解决",
+      "isRepair": false
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "recommendSearch": [
+        {
+            "keyWord": "素氏",
+            "type": "1",
+            "route": ""
+        },
+        {
+            "keyWord": "会员卡",
+            "type": "1",
+            "route": ""
+        },
+        {
+            "keyWord": "米",
+            "type": "1",
+            "route": ""
+        },
+        {
+            "keyWord": "咖啡",
+            "type": "1",
+            "route": ""
+        }
+    ]
+}

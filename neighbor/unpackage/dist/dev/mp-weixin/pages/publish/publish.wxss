@@ -1,0 +1,94 @@
+.content.data-v-2a9e6d69 {
+  background-color: #00400f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  -webkit-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.content.active.data-v-2a9e6d69 {
+    opacity: 1;
+}
+.content .logo.data-v-2a9e6d69 {
+    margin-bottom: 400rpx;
+    width: 600rpx;
+}
+.tabbar-box-wrap.data-v-2a9e6d69 {
+  position: absolute;
+  width: 100%;
+  padding: 50rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+}
+.tabbar-box-wrap .tabbar-box.data-v-2a9e6d69 {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    background: #fff;
+    padding: 15rpx 20rpx;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    z-index: 2;
+    -webkit-box-shadow: 0rpx 2rpx 5rpx 2rpx rgba(0, 0, 0, 0.1);
+            box-shadow: 0rpx 2rpx 5rpx 2rpx rgba(0, 0, 0, 0.1);
+}
+.tabbar-box-wrap .tabbar-box.data-v-2a9e6d69:after {
+      content: '';
+      position: absolute;
+      bottom: -16rpx;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 50rpx;
+      height: 50rpx;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      background: #fff;
+      z-index: 1;
+      -webkit-box-shadow: 2rpx 2rpx 5rpx 1rpx rgba(0, 0, 0, 0.1);
+              box-shadow: 2rpx 2rpx 5rpx 1rpx rgba(0, 0, 0, 0.1);
+      border-radius: 2rpx;
+}
+.tabbar-box-wrap .tabbar-box.data-v-2a9e6d69:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      border-radius: 20rpx;
+      z-index: 2;
+}
+.tabbar-box-wrap .tabbar-box .tabbar-box-item.data-v-2a9e6d69 {
+      width: 100%;
+      z-index: 3;
+      margin: 10rpx;
+      color: #555555;
+      text-align: center;
+      font-size: 28rpx;
+}
+.tabbar-box-wrap .tabbar-box .tabbar-box-item .box-image.data-v-2a9e6d69 {
+        width: 100%;
+        height: 100rpx;
+}
+

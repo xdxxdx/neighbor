@@ -1,0 +1,2 @@
+<import src="./accountmgr.vue.wxml" />
+    <template is="2a6c4b95" data="{{ ...$root['0'], $root }}"/>

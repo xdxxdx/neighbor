@@ -1,0 +1,53 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wx1e87d5a23d385aea",
+	"projectname": "neighbor",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "oauth",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/entry/oauth"
+				},
+				{
+					"name": "goodlife",
+					"query": "",
+					"id": 1,
+					"pathName": "pages/goodlife/goodlife"
+				},
+				{
+					"name": "share",
+					"query": "",
+					"id": 2,
+					"pathName": "pages/share/share"
+				}
+			]
+		}
+	}
+}

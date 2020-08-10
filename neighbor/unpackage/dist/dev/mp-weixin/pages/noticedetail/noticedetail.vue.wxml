@@ -1,0 +1,1 @@
+<template name="27590055"><view class="_view M27590055 page" wx:if="{{title}}"><view class="_view M27590055 title"><text class="_text M27590055">{{title}}</text></view><view class="_view M27590055 info"><view class="_view M27590055 info-text"><text class="_text M27590055">{{info}}</text></view></view></view></template>

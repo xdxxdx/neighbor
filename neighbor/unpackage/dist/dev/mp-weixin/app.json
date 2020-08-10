@@ -1,0 +1,96 @@
+{
+  "pages": [
+    "pages/entry/oauth",
+    "pages/center/center",
+    "pages/userinfo/userinfo",
+    "pages/eat/eat",
+    "pages/use/use",
+    "pages/share/share",
+    "pages/play/play",
+    "pages/help/help",
+    "pages/detail/detail",
+    "pages/ordermgr/ordermgr",
+    "pages/accountmgr/accountmgr",
+    "pages/itemmgr/itemmgr",
+    "pages/myfollow/myfollow",
+    "pages/myfavorite/myfavorite",
+    "pages/myneighbor/myneighbor",
+    "pages/setting/setting",
+    "pages/suggest/suggest",
+    "pages/userhouse/userhouse",
+    "pages/add/add",
+    "pages/addshare/addshare",
+    "pages/sharedetail/sharedetail",
+    "pages/swiperdetail/swiperdetail",
+    "pages/noticedetail/noticedetail",
+    "pages/neighborcenter/neighborcenter",
+    "pages/carsharing/carsharing",
+    "pages/msg/msg",
+    "pages/publish/publish",
+    "pages/addcarsharing/addcarsharing",
+    "pages/rank/rank",
+    "pages/society/society",
+    "pages/lifemall/lifemall",
+    "pages/mycarsharing/mycarsharing",
+    "pages/societydetail/societydetail",
+    "pages/opendoor/opendoor",
+    "pages/main/main",
+    "pages/volunteer/volunteer",
+    "pages/volunteerdetail/volunteerdetail",
+    "pages/housekeep/housekeep",
+    "pages/goodlife/goodlife",
+    "pages/userqrcode/userqrcode",
+    "pages/introduction/introduction",
+    "pages/loveinhere/loveinhere"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "聚龙小镇",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#BEBEBE"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#444444",
+    "selectedColor": "#70ac79",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/share/share",
+        "iconPath": "static/share.png",
+        "selectedIconPath": "static/share1.png",
+        "text": "邻圈"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "iconPath": "static/rank.png",
+        "selectedIconPath": "static/rank1.png",
+        "text": "排行"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "static/add.png",
+        "selectedIconPath": "static/add.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "iconPath": "static/msg.png",
+        "selectedIconPath": "static/msg1.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/user.png",
+        "selectedIconPath": "static/user1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "sitemapLocation": "sitemap98.json"
+}

@@ -1,0 +1,2 @@
+<import src="./myfollow.vue.wxml" />
+    <template is="674543d5" data="{{ ...$root['0'], $root }}"/>
